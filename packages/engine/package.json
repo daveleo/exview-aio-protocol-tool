@@ -1,0 +1,6 @@
+{
+  "name": "@exview/engine",
+  "version": "1.0.0",
+  "main": "src/device-certify.ts",
+  "type": "module"
+}

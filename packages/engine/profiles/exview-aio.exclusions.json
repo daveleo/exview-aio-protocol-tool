@@ -1,0 +1,8 @@
+{
+  "excludeFromSuite": [
+    { "code": "0xC131", "reason": "Disabled for this FW version" },
+    { "code": "0xC20D", "reason": "Not supported on eXview AIO" },
+    { "code": "0xC20F", "reason": "Not supported on eXview AIO" },
+    { "code": "0xC020", "reason": "Not supported on eXview AIO" }
+  ]
+}

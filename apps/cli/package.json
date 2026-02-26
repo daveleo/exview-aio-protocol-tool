@@ -1,0 +1,11 @@
+{
+  "name": "@exview/cli",
+  "type": "module",
+  "scripts": {
+    "certify": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@exview/engine": "workspace:*",
+    "tsx": "^4.0.0"
+  }
+}

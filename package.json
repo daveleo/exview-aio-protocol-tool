@@ -1,0 +1,10 @@
+{
+  "name": "exview-aio-protocol-tool",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "certify": "npm run certify --prefix apps/cli --",
+    "suite": "npm run certify -- --suite --rate 5 --timeout 1200 --settle-set 300 --settle-mode 900",
+    "golden": "powershell -ExecutionPolicy Bypass -File scripts/check-golden-summary.ps1"
+  }
+}
