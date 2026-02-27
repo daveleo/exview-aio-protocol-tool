@@ -5,7 +5,7 @@
     "certify": "tsx src/index.ts"
   },
   "dependencies": {
-    "@exview/engine": "workspace:*",
+    "@exview/engine": "file:../../packages/engine",
     "tsx": "^4.0.0"
   }
 }
